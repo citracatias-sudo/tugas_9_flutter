@@ -22,7 +22,7 @@ class MapPageDay9 extends StatelessWidget {
           margin: EdgeInsets.all(10),
           padding: EdgeInsets.all(10),
           height: 40,
-          color: Color.fromARGB(255, 255, 176, 202,),
+          color: Color.fromARGB(255, 255, 176, 202),
           child: Align(
             alignment: Alignment.centerLeft,
             child: Text(

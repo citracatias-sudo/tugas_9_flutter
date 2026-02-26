@@ -4,9 +4,7 @@ import 'package:flutter_tugas_9/models/herspace_model.dart';
 class ModelsPageday9 extends StatelessWidget {
   ModelsPageday9({super.key});
 
-  final List<Welcome> data =
-      welcomeFromJson(herSpaceJson);
-
+  final List<Welcome> data = welcomeFromJson(herSpaceJson);
 
   @override
   Widget build(BuildContext context) {
