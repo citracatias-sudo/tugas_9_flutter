@@ -31,10 +31,11 @@ class _ScaffoldDay9State extends State<ScaffoldDay9> {
       appBar: AppBar(
         title: Text("Herspace"),
         centerTitle: true,
-        backgroundColor: const Color.fromARGB(255, 221, 173, 189),
+        backgroundColor:  Color.fromARGB(255, 255, 176, 202),
+        actionsPadding: EdgeInsets.symmetric(),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: EdgeInsets.all(20.0),
         child: _pages[_selectedIndex],
       ),
       bottomNavigationBar: BottomNavigationBar(
