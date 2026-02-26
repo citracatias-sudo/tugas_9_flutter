@@ -50,11 +50,8 @@ class _ScaffoldDay9State extends State<ScaffoldDay9> {
             icon: Icon(Icons.miscellaneous_services_rounded),
             label: "Services",
           ),
-          
-          BottomNavigationBarItem(
-            icon: Icon(Icons.info),
-            label: "Model",
-          ),
+
+          BottomNavigationBarItem(icon: Icon(Icons.info), label: "Model"),
         ],
       ),
     );
